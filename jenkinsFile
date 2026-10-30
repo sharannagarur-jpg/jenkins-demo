@@ -27,7 +27,8 @@ pipeline {
        steps {
          sh 'docker rm -f jenkins-docker-test || true'
        }
-    }
+     }
+   }
 }
 
 
